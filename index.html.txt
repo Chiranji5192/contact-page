@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Contact Us</h1>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:chiranji5192@gmail.com">chiranji5192@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+918955833475">+91 89558 33475</a></p>
+            <p><strong>Address:</strong> Your Location Here</p>
+        </div>
+
+
+        <div class="form-container">
+            <h2>Send Us a Message</h2>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2025 Your Business Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
